@@ -5,7 +5,7 @@ use Foo::Bar; #commenting this line also makes tests pass
 
 our $VERSION = '0.0.1';
 
-has param1 => (is => 'rw', defailt => sub { [] });
+has param1 => (is => 'rw', default => sub { [] });
 
 1;
 
