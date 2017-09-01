@@ -1,7 +1,7 @@
 package Foo;
 use Moo;
 
-use Foo::Bar;
+use Foo::Bar; #commenting this line also makes tests pass
 
 our $VERSION = '0.0.1';
 
